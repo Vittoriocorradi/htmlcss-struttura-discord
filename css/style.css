@@ -32,7 +32,7 @@
    background-color: #EE82EE;
 }
 
-.debug section {
+.debug .central-section {
     height: 600px;
 }
 
@@ -46,6 +46,15 @@
 
 .debug .content-pink {
     background-color: #FFC0CB;
+}
+
+.debug .bottom-section {
+    height: 1000px;
+}
+
+.debug .green-box {
+    height: 900px;
+    background-color: #228B22;
 }
 
 /* Header Top*/
@@ -94,7 +103,7 @@ nav .left {
 /* Main Section */ 
 
 section {
-     padding: 0 50px;
+     padding: 50px 0;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -124,3 +133,12 @@ section .content-blue {
 section .content-pink {
     flex-grow: 1.5;
 } */
+
+section .bottom-section {
+    padding: 50px 0;
+}
+
+.green-box {
+    width: 1200px;
+    margin: 0 auto;
+}
