@@ -12,6 +12,10 @@
     border: 3px dashed black;
 }
 
+.debug .white-dash {
+    border: 3px dashed white;
+}
+
 .debug .header-top {
     height: 80px;
     background-color: #ADD8E6;
@@ -55,6 +59,22 @@
 .debug .green-box {
     height: 900px;
     background-color: #228B22;
+}
+
+.debug .footer-top {
+    height: 630px;
+}
+
+.debug .content-footer-top, .debug .content-coral, .debug .content-aqua {
+    min-height: 580px;
+}
+
+footer .content-coral {
+    background-color: #F08080;
+}
+
+footer .content-aqua {
+    background-color: #20B2AA;
 }
 
 /* Header Top*/
@@ -141,4 +161,28 @@ section .bottom-section {
 .green-box {
     width: 1200px;
     margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px 0;
+
+}
+
+footer .content-footer-top {
+    width: 1200px;
+    display: flex;
+    border-bottom: 2px solid #9A9A9A;
+}
+
+footer .content-coral {
+    flex-grow: 2;
+}
+
+footer .content-aqua {
+    flex-grow: 1;
 }
