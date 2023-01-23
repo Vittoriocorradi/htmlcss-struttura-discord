@@ -8,6 +8,7 @@
 
 /* Debug */
 
+/* Debug Header */
 .debug .dash {
     border: 3px dashed black;
 }
@@ -18,7 +19,6 @@
 
 .debug .header-top {
     height: 80px;
-    background-color: #ADD8E6;
 }
 
 .debug .nav {
@@ -28,7 +28,6 @@
 
 .debug .header-bottom {
     height: 500px;
-    background-color: #00008B;
 }
 
 .debug .jumbotron {
@@ -39,6 +38,8 @@
 .debug .central-section {
     height: 600px;
 }
+
+/* Debug Main */
 
 .debug .content {
     min-height: 500px;
@@ -61,6 +62,8 @@
     background-color: #228B22;
 }
 
+/* Debug Footer */
+
 .debug .footer-top {
     height: 630px;
 }
@@ -77,12 +80,22 @@ footer .content-aqua {
     background-color: #20B2AA;
 }
 
+.debug .footer-bottom {
+    height: 110px;
+}
+
+.debug .content-footer-bottom {
+    min-height: 80px;
+    background-color: #7FFFD4;
+}
+
 /* Header Top*/
 
 .header-top {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ADD8E6;
 }
 
 nav {
@@ -109,10 +122,12 @@ nav .left {
     padding-left: 10px;
 }
 
-/* Header */
+/* Header Bottom */
 
 .header-bottom {
     padding: 50px;
+    background-color: #00008B;
+    border-bottom: 4px solid #ADD8E6;
 }
 
 .header-bottom .jumbotron {
@@ -165,18 +180,23 @@ section .bottom-section {
 
 /* Footer */
 
+/* Footer Top */
+
 footer {
     background-color: #23272A;
-    display: flex;
-    justify-content: center;
-    padding: 10px 40px 0;
+    /* display: flex;
+    justify-content: center; */
+}
 
+footer .footer-top {
+    padding: 10px 40px 0;
+    border-bottom: 4px solid #9A9A9A;
 }
 
 footer .content-footer-top {
     width: 1200px;
     display: flex;
-    border-bottom: 2px solid #9A9A9A;
+    margin: 0 auto;
 }
 
 footer .content-coral {
@@ -185,4 +205,24 @@ footer .content-coral {
 
 footer .content-aqua {
     flex-grow: 1;
+}
+
+/* Footer Bottom */
+
+footer .footer-bottom {
+    padding: 30px 0 0 0;
+    border-bottom: 4px solid #9A9A9A;
+}
+
+.content-footer-bottom {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    padding: 5px;
+    background-color: #FFC6B1;
 }
