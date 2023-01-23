@@ -36,6 +36,18 @@
     height: 600px;
 }
 
+.debug .content {
+    min-height: 500px;
+}
+
+.debug .content-blue {
+    background-color: #1E90FF;
+}
+
+.debug .content-pink {
+    background-color: #FFC0CB;
+}
+
 /* Header Top*/
 
 .header-top {
@@ -82,5 +94,33 @@ nav .left {
 /* Main Section */ 
 
 section {
-    
+     padding: 0 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
+
+section .content {
+    width: 1200px;
+    display: flex;
+}
+
+section:nth-child(even) {
+    background-color: #D3D3D3;
+}
+
+section .content-pink {
+    width: 40%;
+}
+
+section .content-blue {
+    width: 60%;
+}
+
+/* section .content-blue {
+    flex-grow: 2.5;
+}
+
+section .content-pink {
+    flex-grow: 1.5;
+} */
