@@ -9,7 +9,7 @@
 /* Debug */
 
 .debug .dash {
-    border: 2px dashed black;
+    border: 3px dashed black;
 }
 
 .debug .header-top {
@@ -22,7 +22,21 @@
     min-height: 50px;
 }
 
-/* Header */
+.debug .header-bottom {
+    height: 500px;
+    background-color: #00008B;
+}
+
+.debug .jumbotron {
+    height: 400px;
+   background-color: #EE82EE;
+}
+
+.debug section {
+    height: 600px;
+}
+
+/* Header Top*/
 
 .header-top {
     display: flex;
@@ -47,5 +61,26 @@ nav {
 
 nav .right {
     text-align: right;
+    padding-right: 10px
 }
 
+nav .left {
+    padding-left: 10px;
+}
+
+/* Header */
+
+.header-bottom {
+    padding: 50px;
+}
+
+.header-bottom .jumbotron {
+    width: 900px;
+    margin: auto;
+}
+
+/* Main Section */ 
+
+section {
+    
+}
