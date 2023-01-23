@@ -5,3 +5,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Debug */
+
+.debug .dash {
+    border: 2px dashed black;
+}
+
+.debug .header-top {
+    height: 80px;
+    background-color: #ADD8E6;
+}
+
+.debug .nav {
+    background-color: #DAA520;
+    min-height: 50px;
+}
+
+/* Header */
+
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 1200px;
+    line-height: 50px;
+}
+
+.nav-side {
+    width: 20%;
+}
+
+.nav-center {
+    width: 60%;
+    text-align: center;
+}
+
+nav .right {
+    text-align: right;
+}
+
